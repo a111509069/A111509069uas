@@ -1,0 +1,65 @@
+/* untuk ukuran layar 780px kebawah */
+@media screen and (max-width: 780px) {
+	
+	body{
+		width			: auto;
+		float			: none;
+	}
+	
+	#layout {
+		width			: auto;
+		float			: none;
+	}
+	
+	#header {
+		width			: auto;
+		float			: none;
+		height 			: 120px;
+	}
+
+	#isi{
+		width			: auto;
+		float			: none;
+		font-size 		: 15px;
+	}
+	#content{
+	width				: auto;
+	height				: 50px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#menu {
+	width			: auto;
+	height			: 75px;
+	}
+	#menu ul {
+	margin 				: 0;
+	padding-left 		: 0px;
+	padding-right		: 0px;
+	list-style 			: none;
+	background-color	: #4682B4;
+	}
+	#menu ul li a {
+	float 			: left;
+	color 			: #FFFFFF;
+	padding 		: 8px 8px;
+	text-decoration : none;
+	background 		: #4682B4;
+	text-shadow 	: 0 -1px 1px rgba(0, 0, 0, 0.6)
+	}
+}
+@media screen and (max-width: 375px) {
+	#menu {
+	width			: auto;
+	height			: 110px;
+	}
+}
+@media screen and (max-width: 265px) {
+	#menu {
+	width			: auto;
+	height			: 145px;
+	}
+}
+
+

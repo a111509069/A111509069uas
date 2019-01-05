@@ -1,0 +1,238 @@
+/*body {
+	background-color 	: grey;
+	text-align			: center;
+	font-family			: Verdana, Tahoma, Helvetica;
+	font-size			: 12px;
+}*/
+
+#layout {
+	background			: #DCDCDC;
+	width 				: 100%;
+	margin				: auto;
+	text-align 			: right;
+	padding 			: 10px;
+}
+#header{
+	width 				: 100%;
+	height 				: 120px;
+	background-color	: white;
+	position 			: relative;
+	text-align			: left;
+}
+
+.container-1{
+  width: 100px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  float : right;
+}
+.container-1 input#search{
+  width: 200px;
+  height: 30px;
+  background: #DCDCDC ;
+  border-widht: thin;
+  font-size: 10pt;
+  float: left;
+  color: black;
+  padding-left: 5px;
+  float : right;
+}
+
+
+#menu{
+	width				: 100%;
+	height				: 40px;
+	text-align			: center;
+	background-color	: #4682B4;
+	position			: relative;
+}
+#menu ul {
+	margin 				: 0;
+	padding-left 		: 150px;
+	padding-right		: 100px;
+	list-style 			: none;
+}
+
+#menu ul li {
+	float 				: right;
+}
+#menu ul li a {
+	float 				: left;
+	color 				: white;
+	padding 			: 8px 8px;
+	text-decoration 	: none;
+	background 			: #4682B4;
+	text-shadow 		: 0 -1px 1px rgba(0, 0, 0, 0.6);
+}
+#menu ul li a:hover {
+	color 				: #FFE4B5;
+	background 			: #3C4042;
+}
+
+#slider {
+  width: 1080px;
+  height: 300px;
+  overflow: hidden;
+  border: px solid #c69;
+}
+
+/*gambar sberjalan*/
+.slide {
+  width: 1080px;
+  height: 1000px;
+  float: left;
+  position: relative;
+}
+
+#slide-holder {
+  width: 500%;
+  position: relative;
+  left: 500;
+  -webkit-animation: scroller 10s infinite;
+          animation: scroller 10s infinite;
+}
+
+@-webkit-keyframes scroller {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  33% {
+    -webkit-transform: translateX(-400px);
+            transform: translateX(-400px);
+  }
+  66% {
+    -webkit-transform: translateX(-800px);
+            transform: translateX(-800px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+#slider {
+  margin: 0 auto;
+}
+
+/*berita*/
+#font{
+	text-align 			:center;
+	font-family			:Bookman Old Style;
+	font-size			:20;
+}
+
+#isi{
+	width				: 1080px;
+	height				: auto;
+	margin				: auto;
+	text-align 			: left;
+	padding 			: 3px;
+	
+}
+
+
+.berita{
+	width				: 45%;
+	height				: 400px;
+	float				: left;
+	margin				: 10px;
+	padding				: 10px;
+	border				: 2px solid black;
+	overflow			: hidden;
+}
+
+
+#profil{
+	padding 			: 5px;
+	width				: 70%;
+	height				: auto;
+	background-color 	: #ba7584;
+	position 			: relative;
+	margin-top			: 5px;
+}
+
+
+
+/*isi posting profil*/
+.isipostingall {
+	background-color	: #bc9d64;
+	width				: 98%;
+	height				: auto;
+	margin-bottom		: 5px;
+	padding				: 5px;
+}
+
+
+.banner {
+	width :100%;
+	height:360px;}
+
+
+	
+	/*footor*/
+#footer{
+	width 				: 100%;
+	height				: 50px;
+	margin-top			: 5px;
+	padding-top			: 30;
+	background-color	: #49494e;
+	color				: white;
+	font-size			: 12pt;
+	text-align			: center;
+	position			: relative;
+	clear				: both;
+}
+
+/*isi berita*/
+#content{
+	width				: 100%;
+	height				: auto;
+
+}
+
+.isiberita1{
+	padding-left		: 150px;
+	float				: left;
+	font-size			: 20px;
+	width				: 40%;
+	height				: auto;
+	text-align			: left;
+}
+.isiberita1 h2{
+	width				: 200%;
+	text-align			: center;
+}
+.isiberita1 a{
+	color				: gray;
+	text-decoration		: none;
+}
+
+.isiberita1 img{
+	width				: 100%;
+	height				: 300px;
+}
+.isiberita2{
+	padding-top			: 84px;
+	padding-left		: 30px;
+	float				: left;
+	font-size			: 20px;
+	width				: 40%;
+	height				: auto;
+	text-align			: left;
+}
+.subberita{
+	font-size			: 17px;
+	width				: 100%;
+	height				: 180px;
+}
+.subberita a{
+	color				: gray;
+	text-decoration		: none;
+}
+.subberita img{
+	float				: left;
+	width				: 200px;
+	height				: 120px;
+}
